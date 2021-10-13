@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    overflow-x: hidden;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+
+
+}
+
+
+.nav-bar{
+    width: 30%;
+    margin: 2rem ;
+
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    color: rgb(224, 24, 24);
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "raleway", sans-serif;
+
+}
+
+.hero{
+    
+    background: linear-gradient( to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100% ),
+    url(images/gym-hero.jpeg) no-repeat top;
+    background-size: 100%;
+    text-align: center;
+    padding: 15.5rem;
+}
+    
+.new-collection{
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.spring-summer{
+    font-size: 1.4rem;
+    color: white;
+    font-family: "raleway",sans-serif;
+    font-weight: lighter;
+    margin-top: 1rem;
+    line-height: 2rem;
+
+}
+
+.hand-crafted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12rem;
+    width: 100%;
+    padding-top: 5rem;
+    font-family: "playfair", serif;
+    font-style: italic;
+   
+}
+
+.heavy{
+    font-weight: bold;
+}
+
+.about-container{
+    width: 45%;
+    font-weight: lighter;
+    font-family: "raleway",sans-serif;
+}
+
+.about{
+    line-height: 2rem;
+    text-align: center;
+}
+
+.h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    font-family: "playfair", serif;
+}
+
+
+
+/*---------------------------------------------------------------*/
+.most-loved{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-family: "playfair", serif;
+    font-style: italic;
+    color: rgb(224, 24, 24);
+}
+
+.main-carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    height: auto;
+
+
+}
+
+h3 {
+    color:rgb(224, 24, 24);
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.clothing{
+    color: grey;
+    text-transform: uppercase;
+}
+
+.price{
+    color: grey;
+}
+
+
+.add-to-cart{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    font-family: "raleway",sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+.abdo, .neck, .nit, .wheel{
+    width: 55%;
+    height: 55%;
+}
+
+
+
+.sign-up {
+
+
+    background: url(images/wave-bkgd.jpg) no-repeat bottom;
+    justify-content:center;
+    height: 8.15rem;
+    padding-top: 2.5rem;
+    padding-bottom: 145px;
+    width:100%;
+    background-size: cover, auto;
+    background-position: bottom;
+    text-align:center;
+    margin-top:4rem;
+    display:inline-block;
+    overflow:hidden;    
+
+}
+
+.sign{
+    font-size: 2.4rem;
+    font-family: "playfair", serif;
+    text-shadow: 2px 2px 4px rgb(100 100 100 / 80%);
+    font-style: italic;
+    color: white;
+}
+
+.submit{
+    color: white;
+    background-color: darkred;
+    font-size: 1rem;
+    font-family: "raleway", sans-serif;
+    border-radius: 30px;
+    padding: 13px 14px;
+    margin-left: -108px;
+}
+
+.email{
+    border-radius: 40px;
+    border-color: black;
+    padding: 15px 100px;
+    text-align: center;
+}
+
+.sign-up-text{
+    font-family: "raleway", sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 1.15rem;
+    line-height: 35px;
+}
+
+.sign1{
+    font-family: "raleway", sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 1.15rem;
+    line-height: 35px;
+}
+
+.sign-up-box{
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+    margin-top: 1.2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+}
+
+.contact-info{
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    line-height: 21px;
+}
+
+.add1, .add2{
+    color: grey;
+}
+
+.statement{
+    color: white;
+    padding: 30px 40px;
+
+
+}
+
+.carousel {
+    padding-bottom: 100px;
+
+
+}
+
+.sale-item {
+    padding-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
